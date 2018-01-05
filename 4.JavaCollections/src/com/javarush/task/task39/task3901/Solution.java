@@ -22,7 +22,7 @@ public class Solution {
     public static int lengthOfLongestUniqueSubstring(String s) {
         if (s == null || s.isEmpty())
             return 0;
-        int result = -1;
+        int result = 0;
         char[] chars = s.toCharArray();
         ArrayList<Character> list = new ArrayList<>();
         for (int j = 0; ; j++) {
