@@ -1,0 +1,36 @@
+   public OrderManager() {
+      Thread thread = new Thread(new Runnable() {
+         @Override
+         public void run() {
+            Set<Cook> cooks = StatisticManager.getInstance().getCooks();
+            Iterator<Cook> iterator = cooks.iterator();
+            while (true) {
+               try {
+                  Thread.sleep(10);
+               }
+               catch (InterruptedException e) {}
+               if (!orderQueue.isEmpty()) {
+                  iterator = cooks.iterator();
+                  while (iterator.hasNext()) {
+                     final Cook cook = iterator.next();
+                     if (!cook.isBusy())
+                        new Thread(new Runnable() {
+                           @Override
+                           public void run() {
+                              try {
+                                 if (!orderQueue.isEmpty())
+                                    cook.startCookingOrder(orderQueue.take());
+                              }
+                              catch (InterruptedException e) {}
+                           }
+                        }).start();
+                     if (orderQueue.isEmpty())
+                        break;
+                  }
+               }
+            }
+         }
+      });
+      thread.setDaemon(true);
+      thread.start();
+   }
