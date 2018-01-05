@@ -3,6 +3,7 @@ package com.javarush.task.task39.task3902;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.BigInteger;
 
 /* 
 Биты были биты
@@ -16,10 +17,10 @@ public class Solution {
         long l = Long.parseLong(reader.readLine());
         String result = isWeightEven(l) ? "even" : "odd";
         System.out.println("Number of ones in a given number is " + result);
-
     }
 
     public static boolean isWeightEven(long number) {
+
         return false;
     }
 }

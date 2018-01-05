@@ -30,7 +30,8 @@ public class Solution {
                         result = list.size();
                     }
                     list.clear();
-                } else list.add(chars[i]);
+                }
+                else list.add(chars[i]);
             }
             if (j + result > chars.length)
                 break;
