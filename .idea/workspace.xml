@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/1.JavaSyntax.iml" afterPath="$PROJECT_DIR$/1.JavaSyntax/1.JavaSyntax.iml" />
-      <change beforePath="$PROJECT_DIR$/2.JavaCore/2.JavaCore.iml" afterPath="$PROJECT_DIR$/2.JavaCore/2.JavaCore.iml" />
-      <change beforePath="$PROJECT_DIR$/3.JavaMultithreading/3.JavaMultithreading.iml" afterPath="$PROJECT_DIR$/3.JavaMultithreading/3.JavaMultithreading.iml" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/4.JavaCollections.iml" afterPath="$PROJECT_DIR$/4.JavaCollections/4.JavaCollections.iml" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3902/Solution.java" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3902/Solution.java" />
-      <change beforePath="$PROJECT_DIR$/5.OnlineInternship/5.OnlineInternship.iml" afterPath="$PROJECT_DIR$/5.OnlineInternship/5.OnlineInternship.iml" />
-      <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" />
-      <change beforePath="$PROJECT_DIR$/JavaRushTasks.iml" afterPath="$PROJECT_DIR$/JavaRushTasks.iml" />
     </list>
     <ignored path="JavaRushTasks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -305,6 +297,15 @@
               <item name="task" type="462c0819:PsiDirectoryNode" />
               <item name="task39" type="462c0819:PsiDirectoryNode" />
               <item name="task3902" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="4.JavaCollections" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task39" type="462c0819:PsiDirectoryNode" />
+              <item name="task3903" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -623,7 +624,7 @@
       <workItem from="1515103691249" duration="89000" />
       <workItem from="1515151361861" duration="3480000" />
       <workItem from="1515171535451" duration="9179000" />
-      <workItem from="1515186462147" duration="1867000" />
+      <workItem from="1515186462147" duration="1962000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1515177375810</created>
@@ -667,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515184934277</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="javarush">
+      <created>1515189128084</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1515189128084</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -703,7 +711,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18269000" />
+    <option name="totallyTimeSpent" value="18364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -716,7 +724,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22247191" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -731,7 +738,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32745314" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21454768" sideWeight="0.475969" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21454768" sideWeight="0.475969" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22696629" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23105134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1164,7 +1171,7 @@
         <state relative-caret-position="340">
           <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
