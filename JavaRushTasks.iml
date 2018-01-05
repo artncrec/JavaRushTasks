@@ -17,7 +17,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="org.slf4j:slf4j-api:1.7.25" level="application" />
     <orderEntry type="library" name="com.fasterxml.jackson.core:jackson-databind:2.9.2" level="application" />
-    <orderEntry type="library" name="slf4j-api-1.7.25" level="application" />
     <orderEntry type="library" name="jackson-annotations-2.9.2" level="application" />
     <orderEntry type="library" name="org.junit.jupiter:junit-jupiter-api:5.0.2" level="application" />
     <orderEntry type="library" name="org.apache.commons:commons-collections4:4.0" level="application" />
@@ -31,5 +30,6 @@
     <orderEntry type="library" name="com.google.guava:guava:23.6-jre" level="application" />
     <orderEntry type="library" name="org.powermock:powermock-core:1.4.11" level="application" />
     <orderEntry type="library" name="animal-sniffer-annotations-1.14-sources" level="application" />
+    <orderEntry type="library" name="jackson-databind-2.9.2-sources" level="application" />
   </component>
 </module>

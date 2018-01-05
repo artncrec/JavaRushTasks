@@ -3,6 +3,7 @@ package com.javarush.task.task39.task3901;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 /* 
 Уникальные подстроки
@@ -20,7 +21,16 @@ public class Solution {
         if (s == null || s.isEmpty())
             return 0;
         int result = -1;
-
+        char[] chars = s.toCharArray();
+        ArrayList<Character> list = new ArrayList<>();
+        for (int i = 0; i < chars.length; i++) {
+            if (list.contains(chars[i])) {
+                if (result < list.size())
+                    result = list.size();
+                list.clear();
+            }
+            else list.add(chars[i]);
+        }
         return result;
     }
 }
