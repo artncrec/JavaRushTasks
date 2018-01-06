@@ -3,6 +3,7 @@ package com.javarush.task.task39.task3903;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.BigInteger;
 
 /* 
 Неравноценный обмен
@@ -10,7 +11,7 @@ import java.io.InputStreamReader;
 public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        
+
         System.out.println("Please type in a number: ");
 
         long number = Long.parseLong(reader.readLine());
@@ -23,6 +24,13 @@ public class Solution {
     }
 
     public static long swapBits(long number, int i, int j) {
+        long a = number >> i & 1;
+        long b = number >> j & 1;
+        if (a != b)
+            if (a == 0)
+                number = number & ~((1 << j)) | (1 << i);
+            else
+                number = number & ~((1 << i)) | (1 << j);
         return number;
     }
 }
