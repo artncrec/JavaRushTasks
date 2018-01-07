@@ -30,10 +30,15 @@ public class Solution {
                         result = list.size();
                     }
                     list.clear();
+                    i--;
                 }
                 else list.add(chars[i]);
             }
-            if (j + result > chars.length)
+            if (result < list.size()) {
+                result = list.size();
+            }
+            list.clear();
+            if (j + result >= chars.length)
                 break;
         }
         return result;
