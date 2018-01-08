@@ -1,0 +1,18 @@
+package com.javarush.task.task39.task3905;
+
+public class PhotoPaint {
+    public boolean paintFill(Color[][] image, int r, int c, Color desiredColor) {
+        if (c >= image.length || c < 0 || r >= image[0].length || r < 0 || image[c][r] == desiredColor)
+            return false;
+        else {
+            if (desiredColor != null) {
+                paintPixel(image, r, c, desiredColor, image[c][r]);
+                return true;
+            } else return false;
+        }
+    }
+
+    private void paintPixel(Color[][] image, int r, int c, Color desiredColor, Color currentColor) {
+        image[c][r] = desiredColor;
+    }
+}
