@@ -13,6 +13,14 @@ public class PhotoPaint {
     }
 
     private void paintPixel(Color[][] image, int r, int c, Color desiredColor, Color currentColor) {
-        image[c][r] = desiredColor;
+        if (c >= image.length || c < 0 || r >= image[0].length || r < 0 || image[c][r] == desiredColor)
+            return;
+        if (image[c][r] == currentColor) {
+            image[c][r] = desiredColor;
+            paintPixel(image, r - 1, c, desiredColor, currentColor);
+            paintPixel(image, r + 1, c, desiredColor, currentColor);
+            paintPixel(image, r, c - 1, desiredColor, currentColor);
+            paintPixel(image, r, c + 1, desiredColor, currentColor);
+        }
     }
 }

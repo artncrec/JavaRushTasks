@@ -32,8 +32,8 @@ public class Solution {
    }
 
    private static boolean isPolindrom(String number) {
+      char[] chars = number.toCharArray();
       for (int i = 0; i < number.length() / 2; i++) {
-         char[] chars = number.toCharArray();
          if (chars[i] != chars[chars.length - 1 - i])
             return false;
       }
