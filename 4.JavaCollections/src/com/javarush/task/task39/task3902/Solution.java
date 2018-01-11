@@ -3,7 +3,6 @@ package com.javarush.task.task39.task3902;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigInteger;
 
 /* 
 Биты были биты
