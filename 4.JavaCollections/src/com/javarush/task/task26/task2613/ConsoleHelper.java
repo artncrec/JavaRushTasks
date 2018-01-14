@@ -1,5 +1,7 @@
 package com.javarush.task.task26.task2613;
 
+import com.javarush.task.task26.task2613.exception.InterruptOperationException;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -11,15 +13,18 @@ public class ConsoleHelper {
         System.out.println(message);
     }
 
-    public static String readString() {
+    public static String readString() throws InterruptOperationException {
         try {
-            return bis.readLine();
+            String s = bis.readLine();
+            if (s.toLowerCase().equals("exit"))
+                throw new InterruptOperationException();
+            return s;
         } catch (IOException e) {
             return "";
         }
     }
 
-    public static String askCurrencyCode() {
+    public static String askCurrencyCode() throws InterruptOperationException {
         writeMessage("Введите код валюты (Код должен содержать 3 символа)");
         String code;
         while (true) {
@@ -31,7 +36,7 @@ public class ConsoleHelper {
         return code.toUpperCase();
     }
 
-    public static String[] getValidTwoDigits(String currencyCode) {
+    public static String[] getValidTwoDigits(String currencyCode) throws InterruptOperationException {
         writeMessage("Введите номинал и количество банкнот");
         String[] s;
         while (true) {
@@ -43,7 +48,7 @@ public class ConsoleHelper {
         return s;
     }
 
-    public static Operation askOperation(){
+    public static Operation askOperation() throws InterruptOperationException {
         writeMessage("Введите номер операции:\n1 - Info\n2 - Deposit\n3 - Withdraw\n4 - Exit");
         while (true) {
             String line = readString();

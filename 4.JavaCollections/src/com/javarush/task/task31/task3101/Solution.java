@@ -1,11 +1,7 @@
 package com.javarush.task.task31.task3101;
 
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 /*
@@ -16,7 +12,6 @@ public class Solution {
         File resultFile = new File(args[1]);
         List<File> names;
         File dest = new File(resultFile.toPath().getParent().resolve("allFilesContent.txt").toString());
-//        File dest = new File(resultFile.getParent() + "\\allFilesContent.txt");
         FileUtils.renameFile(resultFile, dest);
 
         try (FileOutputStream outputStream = new FileOutputStream(dest)) {
