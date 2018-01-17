@@ -4,20 +4,474 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="">
+    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="javarush">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/1.JavaSyntax.iml" afterPath="$PROJECT_DIR$/1.JavaSyntax/1.JavaSyntax.iml" />
-      <change beforePath="$PROJECT_DIR$/2.JavaCore/2.JavaCore.iml" afterPath="$PROJECT_DIR$/2.JavaCore/2.JavaCore.iml" />
-      <change beforePath="$PROJECT_DIR$/3.JavaMultithreading/3.JavaMultithreading.iml" afterPath="$PROJECT_DIR$/3.JavaMultithreading/3.JavaMultithreading.iml" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/4.JavaCollections.iml" afterPath="$PROJECT_DIR$/4.JavaCollections/4.JavaCollections.iml" />
-      <change beforePath="$PROJECT_DIR$/5.OnlineInternship/5.OnlineInternship.iml" afterPath="$PROJECT_DIR$/5.OnlineInternship/5.OnlineInternship.iml" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" />
-      <change beforePath="$PROJECT_DIR$/JavaRushTasks.iml" afterPath="$PROJECT_DIR$/JavaRushTasks.iml" />
     </list>
     <ignored path="JavaRushTasks.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path=".idea/inspectionProfiles/Project_Default.xml" />
+    <ignored path="lib/javamail-1.4.7/demo/client/ComponentFrame.java" />
+    <ignored path="lib/javamail-1.4.7/demo/client/FolderModel.java" />
+    <ignored path="lib/javamail-1.4.7/demo/client/FolderTreeNode.java" />
+    <ignored path="lib/javamail-1.4.7/demo/client/FolderViewer.java" />
+    <ignored path="lib/javamail-1.4.7/demo/client/MessageViewer.java" />
+    <ignored path="lib/javamail-1.4.7/demo/client/MultipartViewer.java" />
+    <ignored path="lib/javamail-1.4.7/demo/client/README.txt" />
+    <ignored path="lib/javamail-1.4.7/demo/client/simple.mailcap" />
+    <ignored path="lib/javamail-1.4.7/demo/client/SimpleAuthenticator.java" />
+    <ignored path="lib/javamail-1.4.7/demo/client/SimpleClient.java" />
+    <ignored path="lib/javamail-1.4.7/demo/client/StoreTreeNode.java" />
+    <ignored path="lib/javamail-1.4.7/demo/client/TextViewer.java" />
+    <ignored path="lib/javamail-1.4.7/demo/logging/FileErrorManager.java" />
+    <ignored path="lib/javamail-1.4.7/demo/logging/maildemo.properties" />
+    <ignored path="lib/javamail-1.4.7/demo/logging/MailHandlerDemo.java" />
+    <ignored path="lib/javamail-1.4.7/demo/logging/README.txt" />
+    <ignored path="lib/javamail-1.4.7/demo/logging/SummaryFormatter.java" />
+    <ignored path="lib/javamail-1.4.7/demo/logging/SummaryNameFormatter.java" />
+    <ignored path="lib/javamail-1.4.7/demo/outlook/MSBodyPart.java" />
+    <ignored path="lib/javamail-1.4.7/demo/outlook/MSMessage.java" />
+    <ignored path="lib/javamail-1.4.7/demo/outlook/MSMultipartDataSource.java" />
+    <ignored path="lib/javamail-1.4.7/demo/outlook/README.txt" />
+    <ignored path="lib/javamail-1.4.7/demo/servlet/JavaMail.html" />
+    <ignored path="lib/javamail-1.4.7/demo/servlet/JavaMailServlet.java" />
+    <ignored path="lib/javamail-1.4.7/demo/servlet/README.txt" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/classes/demo/AttachmentServlet.java" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/classes/demo/FilterServlet.java" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/classes/demo/MailUserBean.java" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/docroot/WEB-INF/web.xml" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/docroot/compose.jsp" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/docroot/errordetails.jsp" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/docroot/errorpage.jsp" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/docroot/folders.jsp" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/docroot/index.html" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/docroot/login.jsp" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/docroot/logout.jsp" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/docroot/messagecontent.jsp" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/docroot/messageheaders.jsp" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/docroot/send.jsp" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/taglib/demo/AttachmentInfo.java" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/taglib/demo/ListAttachmentsTag.java" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/taglib/demo/ListAttachmentsTEI.java" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/taglib/demo/ListMessagesTag.java" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/taglib/demo/ListMessagesTEI.java" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/taglib/demo/MessageInfo.java" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/taglib/demo/MessageTag.java" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/taglib/demo/MessageTEI.java" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/taglib/demo/SendTag.java" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/src/taglib/META-INF/taglib.tld" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/build.bat" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/build.sh" />
+    <ignored path="lib/javamail-1.4.7/demo/webapp/webapp.README.txt" />
+    <ignored path="lib/javamail-1.4.7/demo/copier.java" />
+    <ignored path="lib/javamail-1.4.7/demo/CRLFOutputStream.java" />
+    <ignored path="lib/javamail-1.4.7/demo/folderlist.java" />
+    <ignored path="lib/javamail-1.4.7/demo/monitor.java" />
+    <ignored path="lib/javamail-1.4.7/demo/mover.java" />
+    <ignored path="lib/javamail-1.4.7/demo/msgmultisendsample.java" />
+    <ignored path="lib/javamail-1.4.7/demo/msgsend.java" />
+    <ignored path="lib/javamail-1.4.7/demo/msgsendsample.java" />
+    <ignored path="lib/javamail-1.4.7/demo/msgshow.java" />
+    <ignored path="lib/javamail-1.4.7/demo/namespace.java" />
+    <ignored path="lib/javamail-1.4.7/demo/NewlineOutputStream.java" />
+    <ignored path="lib/javamail-1.4.7/demo/populate.java" />
+    <ignored path="lib/javamail-1.4.7/demo/README.txt" />
+    <ignored path="lib/javamail-1.4.7/demo/registry.java" />
+    <ignored path="lib/javamail-1.4.7/demo/search.java" />
+    <ignored path="lib/javamail-1.4.7/demo/sendfile.java" />
+    <ignored path="lib/javamail-1.4.7/demo/sendhtml.java" />
+    <ignored path="lib/javamail-1.4.7/demo/smtpsend.java" />
+    <ignored path="lib/javamail-1.4.7/demo/transport.java" />
+    <ignored path="lib/javamail-1.4.7/demo/uidmsgshow.java" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/dsn/class-use/DeliveryStatus.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/dsn/class-use/DispositionNotification.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/dsn/class-use/MessageHeaders.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/dsn/class-use/MultipartReport.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/dsn/class-use/Report.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/dsn/DeliveryStatus.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/dsn/DispositionNotification.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/dsn/MessageHeaders.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/dsn/MultipartReport.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/dsn/package-frame.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/dsn/package-summary.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/dsn/package-tree.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/dsn/package-use.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/dsn/Report.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/class-use/GmailFolder.FetchProfileItem.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/class-use/GmailFolder.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/class-use/GmailMessage.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/class-use/GmailMsgIdTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/class-use/GmailRawSearchTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/class-use/GmailSSLStore.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/class-use/GmailStore.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/class-use/GmailThrIdTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/GmailFolder.FetchProfileItem.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/GmailFolder.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/GmailMessage.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/GmailMsgIdTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/GmailRawSearchTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/GmailSSLStore.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/GmailStore.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/GmailThrIdTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/package-frame.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/package-summary.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/package-tree.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/gimap/package-use.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/class-use/ACL.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/class-use/IMAPFolder.FetchProfileItem.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/class-use/IMAPFolder.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/class-use/IMAPFolder.ProtocolCommand.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/class-use/IMAPMessage.FetchProfileCondition.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/class-use/IMAPMessage.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/class-use/IMAPSSLStore.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/class-use/IMAPStore.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/class-use/Rights.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/class-use/Rights.Right.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/class-use/SortTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/ACL.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/IMAPFolder.FetchProfileItem.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/IMAPFolder.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/IMAPFolder.ProtocolCommand.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/IMAPMessage.FetchProfileCondition.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/IMAPMessage.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/IMAPSSLStore.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/IMAPStore.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/package-frame.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/package-summary.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/package-tree.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/package-use.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/Rights.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/Rights.Right.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/imap/SortTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/pop3/class-use/POP3Folder.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/pop3/class-use/POP3Message.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/pop3/class-use/POP3SSLStore.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/pop3/class-use/POP3Store.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/pop3/package-frame.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/pop3/package-summary.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/pop3/package-tree.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/pop3/package-use.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/pop3/POP3Folder.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/pop3/POP3Message.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/pop3/POP3SSLStore.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/pop3/POP3Store.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/class-use/SMTPAddressFailedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/class-use/SMTPAddressSucceededException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/class-use/SMTPMessage.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/class-use/SMTPSenderFailedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/class-use/SMTPSendFailedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/class-use/SMTPSSLTransport.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/class-use/SMTPTransport.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/package-frame.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/package-summary.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/package-tree.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/package-use.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/SMTPAddressFailedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/SMTPAddressSucceededException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/SMTPMessage.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/SMTPSenderFailedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/SMTPSendFailedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/SMTPSSLTransport.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/smtp/SMTPTransport.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/util/class-use/MailSSLSocketFactory.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/util/class-use/ReadableMime.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/util/logging/class-use/MailHandler.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/util/logging/MailHandler.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/util/logging/package-frame.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/util/logging/package-summary.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/util/logging/package-tree.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/util/logging/package-use.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/util/MailSSLSocketFactory.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/util/package-frame.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/util/package-summary.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/util/package-tree.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/util/package-use.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/com/sun/mail/util/ReadableMime.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-1.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-10.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-11.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-12.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-13.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-14.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-15.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-16.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-17.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-18.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-19.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-2.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-20.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-21.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-22.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-23.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-24.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-3.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-4.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-5.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-6.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-7.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-8.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index-files/index-9.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Address.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/AuthenticationFailedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Authenticator.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/BodyPart.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/FetchProfile.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/FetchProfile.Item.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Flags.Flag.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Flags.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Folder.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/FolderClosedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/FolderNotFoundException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Header.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/IllegalWriteException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Message.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Message.RecipientType.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/MessageAware.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/MessageContext.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/MessageRemovedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/MessagingException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/MethodNotSupportedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Multipart.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/MultipartDataSource.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/NoSuchProviderException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Part.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/PasswordAuthentication.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Provider.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Provider.Type.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Quota.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Quota.Resource.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/QuotaAwareStore.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/ReadOnlyFolderException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/SendFailedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Service.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Session.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Store.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/StoreClosedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/Transport.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/UIDFolder.FetchProfileItem.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/UIDFolder.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/class-use/URLName.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/ConnectionAdapter.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/ConnectionEvent.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/ConnectionListener.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/FolderAdapter.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/FolderEvent.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/FolderListener.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/MailEvent.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/MessageChangedEvent.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/MessageChangedListener.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/MessageCountAdapter.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/MessageCountEvent.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/MessageCountListener.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/StoreEvent.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/StoreListener.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/TransportAdapter.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/TransportEvent.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/class-use/TransportListener.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/ConnectionAdapter.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/ConnectionEvent.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/ConnectionListener.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/FolderAdapter.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/FolderEvent.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/FolderListener.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/MailEvent.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/MessageChangedEvent.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/MessageChangedListener.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/MessageCountAdapter.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/MessageCountEvent.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/MessageCountListener.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/package-frame.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/package-summary.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/package-tree.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/package-use.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/StoreEvent.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/StoreListener.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/TransportAdapter.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/TransportEvent.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/event/TransportListener.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/AddressException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/ContentDisposition.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/ContentType.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/HeaderTokenizer.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/HeaderTokenizer.Token.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/InternetAddress.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/InternetHeaders.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/InternetHeaders.InternetHeader.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/MailDateFormat.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/MimeBodyPart.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/MimeMessage.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/MimeMessage.RecipientType.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/MimeMultipart.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/MimePart.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/MimePartDataSource.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/MimeUtility.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/NewsAddress.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/ParameterList.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/ParseException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/PreencodedMimeBodyPart.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/class-use/SharedInputStream.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/AddressException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/ContentDisposition.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/ContentType.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/HeaderTokenizer.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/HeaderTokenizer.Token.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/InternetAddress.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/InternetHeaders.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/InternetHeaders.InternetHeader.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/MailDateFormat.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/MimeBodyPart.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/MimeMessage.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/MimeMessage.RecipientType.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/MimeMultipart.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/MimePart.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/MimePartDataSource.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/MimeUtility.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/NewsAddress.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/package-frame.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/package-summary.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/package-tree.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/package-use.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/ParameterList.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/ParseException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/PreencodedMimeBodyPart.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/internet/SharedInputStream.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/AddressStringTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/AddressTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/AndTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/BodyTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/ComparisonTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/DateTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/FlagTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/FromStringTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/FromTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/HeaderTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/IntegerComparisonTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/MessageIDTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/MessageNumberTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/NotTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/OrTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/ReceivedDateTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/RecipientStringTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/RecipientTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/SearchException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/SearchTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/SentDateTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/SizeTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/StringTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/class-use/SubjectTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/AddressStringTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/AddressTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/AndTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/BodyTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/ComparisonTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/DateTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/FlagTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/FromStringTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/FromTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/HeaderTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/IntegerComparisonTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/MessageIDTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/MessageNumberTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/NotTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/OrTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/package-frame.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/package-summary.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/package-tree.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/package-use.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/ReceivedDateTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/RecipientStringTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/RecipientTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/SearchException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/SearchTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/SentDateTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/SizeTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/StringTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/search/SubjectTerm.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/util/class-use/ByteArrayDataSource.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/util/class-use/SharedByteArrayInputStream.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/util/class-use/SharedFileInputStream.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/util/ByteArrayDataSource.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/util/package-frame.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/util/package-summary.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/util/package-tree.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/util/package-use.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/util/SharedByteArrayInputStream.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/util/SharedFileInputStream.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Address.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/AuthenticationFailedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Authenticator.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/BodyPart.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/FetchProfile.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/FetchProfile.Item.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Flags.Flag.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Flags.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Folder.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/FolderClosedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/FolderNotFoundException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Header.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/IllegalWriteException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Message.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Message.RecipientType.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/MessageAware.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/MessageContext.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/MessageRemovedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/MessagingException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/MethodNotSupportedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Multipart.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/MultipartDataSource.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/NoSuchProviderException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/package-frame.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/package-summary.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/package-tree.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/package-use.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Part.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/PasswordAuthentication.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Provider.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Provider.Type.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Quota.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Quota.Resource.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/QuotaAwareStore.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/ReadOnlyFolderException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/SendFailedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Service.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Session.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Store.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/StoreClosedException.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/Transport.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/UIDFolder.FetchProfileItem.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/UIDFolder.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/javax/mail/URLName.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/resources/background.gif" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/resources/tab.gif" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/resources/titlebar.gif" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/resources/titlebar_end.gif" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/allclasses-frame.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/allclasses-noframe.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/constant-values.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/deprecated-list.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/help-doc.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/index.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/overview-frame.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/overview-summary.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/overview-tree.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/package-list" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/serialized-form.html" />
+    <ignored path="lib/javamail-1.4.7/docs/javadocs/stylesheet.css" />
+    <ignored path="lib/javamail-1.4.7/docs/JavaMail-1.1-changes.txt" />
+    <ignored path="lib/javamail-1.4.7/docs/JavaMail-1.2-changes.txt" />
+    <ignored path="lib/javamail-1.4.7/docs/JavaMail-1.3-changes.txt" />
+    <ignored path="lib/javamail-1.4.7/docs/JavaMail-1.4-changes.txt" />
+    <ignored path="lib/javamail-1.4.7/CHANGES.txt" />
+    <ignored path="lib/javamail-1.4.7/COMPAT.txt" />
+    <ignored path="lib/javamail-1.4.7/COPYRIGHT.txt" />
+    <ignored path="lib/javamail-1.4.7/distributionREADME.txt" />
+    <ignored path="lib/javamail-1.4.7/LICENSE.txt" />
+    <ignored path="lib/javamail-1.4.7/NOTES.txt" />
+    <ignored path="lib/javamail-1.4.7/NTLMNOTES.txt" />
+    <ignored path="lib/javamail-1.4.7/README.txt" />
+    <ignored path="lib/javamail-1.4.7/SSLNOTES.txt" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,32 +492,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4007/Solution.java">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4008/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calendar.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Programs/Java/jdk1.8.0_131/src.zip!/java/util/Calendar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21184">
-              <caret line="1839" column="0" lean-forward="false" selection-start-line="1839" selection-start-column="0" selection-end-line="1839" selection-end-column="0" />
-              <folding>
-                <element signature="e#73355#73356#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Условие.jrtc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4007/Условие.jrtc">
+      <file leaf-file-name="Условие.jrtc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4008/Условие.jrtc">
           <provider selected="true" editor-type-id="EditorTypeId">
             <state />
           </provider>
@@ -153,7 +593,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/model/MoikrugStrategy.java" />
         <option value="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/Aggregator.java" />
         <option value="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3903/Solution.java" />
         <option value="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3901/Solution.java" />
@@ -204,6 +643,7 @@
         <option value="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4006/Solution.java" />
         <option value="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4003/Solution.java" />
         <option value="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4007/Solution.java" />
+        <option value="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3306/Solution.java" />
       </list>
     </option>
   </component>
@@ -269,7 +709,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,15 +752,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
               <item name="task40" type="462c0819:PsiDirectoryNode" />
-              <item name="task4007" type="462c0819:PsiDirectoryNode" />
+              <item name="task4008" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -658,7 +1098,9 @@
       <workItem from="1515944022069" duration="5193000" />
       <workItem from="1516032936880" duration="6215000" />
       <workItem from="1516051365138" duration="248000" />
-      <workItem from="1516118561984" duration="7651000" />
+      <workItem from="1516118561984" duration="7935000" />
+      <workItem from="1516219718832" duration="62000" />
+      <workItem from="1516219872465" duration="768000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1515177375810</created>
@@ -786,7 +1228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516051245917</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="javarush">
+      <created>1516133897240</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1516133897240</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -822,7 +1271,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72648000" />
+    <option name="totallyTimeSpent" value="73762000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -835,14 +1284,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22247191" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30898875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23027718" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -851,8 +1298,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32745314" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21515892" sideWeight="0.475969" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22249389" sideWeight="0.48314607" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21515892" sideWeight="0.5168539" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22696629" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23105134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -868,6 +1315,7 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30898875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="423" y="100" width="1404" height="847" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966322" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1027,146 +1475,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Programs/Java/jdk1.8.0_131/jre/lib/rt.jar!/java/util/TreeMap.class" />
-    <entry file="jar://D:/Programs/Java/jdk1.8.0_131/src.zip!/java/util/TreeMap.java" />
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3409/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/resources/verifiedCards.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/resources/info_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/resources/exit_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/resources/common_en.properties" />
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/resources/deposit_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/resources/login_en.properties" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/regex/Pattern.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/CurrencyManipulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/resources/withdraw_en.properties" />
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/WithdrawCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="87" lean-forward="false" selection-start-line="13" selection-start-column="87" selection-end-line="13" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/LoginCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="87" lean-forward="false" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/InfoCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="87" lean-forward="false" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/ExitCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="87" lean-forward="false" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/CommandExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/DepositCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="87" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/CashMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/ConsoleHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/Условие.jrtc">
-      <provider selected="true" editor-type-id="EditorTypeId">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4001/Условие.jrtc" />
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4002/Условие.jrtc" />
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4002/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4010/Условие.jrtc" />
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4011/Условие.jrtc" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/net/URL.java" />
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4001/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/javamail-1.4.7/mail.jar!/javax/mail/PasswordAuthentication.class" />
-    <entry file="jar://$USER_HOME$/Downloads/javamail-1.4.7/mail.jar!/javax/mail/Session.class" />
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4003/Условие.jrtc" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/Polygon.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/Point.java" />
     <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4004/Условие.jrtc" />
     <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4005/Connection.java">
@@ -1193,7 +1501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,7 +1518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1219,7 +1525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1227,7 +1532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,20 +1539,237 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Programs/Java/jdk1.8.0_131/src.zip!/java/lang/StringBuilder.java">
+    <entry file="jar://D:/Programs/Java/jdk1.8.0_131/src.zip!/java/lang/StringBuilder.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
+      <provider selected="true" editor-type-id="EditorTypeId">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://D:/Programs/Java/jdk1.8.0_131/src.zip!/java/util/Calendar.java" />
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3301/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding>
-            <element signature="e#2871#2872#0" expanded="false" />
-            <element signature="e#2896#2897#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3302/Условие.jrtc">
+      <provider selected="true" editor-type-id="EditorTypeId">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3302/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3303/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3305/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3305/RaceBike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3305/Motorbike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3305/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3305/Auto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3305/Parking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Boolean.java" />
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3306/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3304/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3307/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3308/data.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3308/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3308/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3309/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3310/Shortener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3310/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3310/ExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3310/strategy/OurHashBiMapStorageStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3310/strategy/HashBiMapStorageStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3310/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3310/tests/FunctionalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3310/tests/SpeedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3311/RealBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3311/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3312/Zoo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3312/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3313/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3313/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4007/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,29 +1778,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://D:/Programs/Java/jdk1.8.0_131/src.zip!/java/util/Calendar.java">
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4008/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21184">
-          <caret line="1839" column="0" lean-forward="false" selection-start-line="1839" selection-start-column="0" selection-end-line="1839" selection-end-column="0" />
-          <folding>
-            <element signature="e#73355#73356#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
+    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4008/Условие.jrtc">
       <provider selected="true" editor-type-id="EditorTypeId">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4007/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
   </component>
