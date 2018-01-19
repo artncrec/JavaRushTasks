@@ -1,7 +1,10 @@
 package com.javarush.task.task34.task3410.controller;
 
 import com.javarush.task.task34.task3410.model.Model;
+import com.javarush.task.task34.task3410.view.Field;
 import com.javarush.task.task34.task3410.view.View;
+
+import java.awt.*;
 
 public class Controller {
     private View view;
