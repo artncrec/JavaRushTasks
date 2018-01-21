@@ -10,7 +10,7 @@ public abstract class CollisionObject extends GameObject{
         switch (direction){
             case UP: return getY() - Model.FIELD_CELL_SIZE == gameObject.getY() && getX() == gameObject.getX();
             case DOWN: return getY() + Model.FIELD_CELL_SIZE == gameObject.getY() && getX() == gameObject.getX();
-            case LEFT: return getY() - Model.FIELD_CELL_SIZE == gameObject.getX() && getY() == gameObject.getY();
+            case LEFT: return getX() - Model.FIELD_CELL_SIZE == gameObject.getX() && getY() == gameObject.getY();
             case RIGHT: return getX() + Model.FIELD_CELL_SIZE == gameObject.getX() && getY() == gameObject.getY();
         }
         return false;
