@@ -9,7 +9,7 @@ public class Model {
     public static final int FIELD_CELL_SIZE = 20;
     private EventListener eventListener;
     private GameObjects gameObjects;
-    private int currentLevel = 1;
+    private int currentLevel = 60;
     private String path = "4.JavaCollections/src/" + Controller.class.getPackage().getName().substring(0, Controller.class.getPackage().getName().lastIndexOf('.')).replace('.', '/');
     private LevelLoader levelLoader = new LevelLoader(Paths.get(path + "/res/levels.txt"));
 

@@ -20,13 +20,10 @@ public class LevelLoader {
         Set<Box> boxes = new HashSet<>();
         Set<Home> homes = new HashSet<>();
         Player player = null;
-
         if (level > 60)
             level %= 60;
         int x = Model.FIELD_CELL_SIZE / 2;
         int y = Model.FIELD_CELL_SIZE / 2;
-        int xc = 0, yc = 0;
-
         try {
             BufferedReader reader = new BufferedReader(new FileReader(levels.toFile()));
             String data;
@@ -35,29 +32,15 @@ public class LevelLoader {
                     if (Integer.parseInt(data.split(" ")[1]) == level) {
                         boolean start = false;
                         while ((data = reader.readLine()) != null) {
-                            if (data.length() == 0) {
+                            if (data.length() == 0)
                                 if (!start) {
                                     start = true;
                                     continue;
                                 }
                                 else
                                     break;
-                            }
-                            else {
-                                if (data.startsWith("Size X:")) {
-                                    xc = (520 - Integer.parseInt(data.split(" ")[2]) * Model.FIELD_CELL_SIZE);
-                                    if (xc != 0)
-                                        xc /= 2;
-                                }
-                                if (data.startsWith("Size Y:")) {
-                                    yc = (520 - Integer.parseInt(data.split(" ")[2]) * Model.FIELD_CELL_SIZE);
-                                    if (yc != 0)
-                                        yc /= 2;
-                                    y += yc;
-                                }
-                            }
                             if (start) {
-                                x = xc + Model.FIELD_CELL_SIZE / 2;
+                                x = Model.FIELD_CELL_SIZE / 2;
                                 for (char c : data.toCharArray()) {
                                     switch (c) {
                                         case 'X':

@@ -20,7 +20,7 @@ public class View extends JFrame {
         add(field);
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setSize(540, 540);
+        setSize(500, 500);
         setLocationRelativeTo(null);
         setTitle("Сокобан");
         setVisible(true);
