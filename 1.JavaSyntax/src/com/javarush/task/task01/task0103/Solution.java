@@ -6,6 +6,7 @@ package com.javarush.task.task01.task0103;
 
 public class Solution {
     public static void main(String[] args) {
-        //напишите тут ваш код
+        int year = 3126;
+        System.out.println(year-8);
     }
 }
