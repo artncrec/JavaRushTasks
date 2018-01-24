@@ -6,6 +6,7 @@ package com.javarush.task.task01.task0111;
 
 public class Solution {
     public static void main(String[] args) {
-        //напишите тут ваш код
+        int a = 0, b = 12;
+        String s = "2017";
     }
 }
