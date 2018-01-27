@@ -13,7 +13,7 @@ import java.util.List;
 public class Solution {
     public static List<LineItem> lines = new ArrayList<LineItem>();
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String file1, file2, s;
         file1 = reader.readLine();
@@ -21,38 +21,32 @@ public class Solution {
         reader.close();
         BufferedReader reader2 = new BufferedReader(new FileReader(file1));
         ArrayList<String> list = new ArrayList<>();
-        while ((s=reader2.readLine())!=null)
-        {
+        while ((s = reader2.readLine()) != null) {
             list.add(s);
         }
         reader2.close();
         ArrayList<String> list2 = new ArrayList<>();
         BufferedReader reader3 = new BufferedReader(new FileReader(file2));
-        while ((s=reader3.readLine())!=null)
-        {
+        while ((s = reader3.readLine()) != null) {
             list2.add(s);
         }
         reader3.close();
 
-        for (int i = 0, j=0; i < list.size();)
-        {
-            if (list.get(i).equals(list2.get(j)))
-            {
+        for (int i = 0, j = 0; i < list.size(); ) {
+            if (list.get(i).equals(list2.get(j))) {
                 lines.add(new LineItem(Type.SAME, list.get(i)));
-                if (i == list.size() - 1 && j < list2.size() - 1)
-                {
+                if (i == list.size() - 1 && j < list2.size() - 1) {
                     lines.add(new LineItem(Type.ADDED, list2.get(j + 1)));
                     i++;
-                } else
-                    if (j == list2.size() - 1 && i < list.size() - 1)
-                    {
-                        lines.add(new LineItem(Type.REMOVED, list.get(i + 1)));
-                        break;
-                    }
-                    else
-                    {
-                        i++; j++;
-                    }
+                }
+                else if (j == list2.size() - 1 && i < list.size() - 1) {
+                    lines.add(new LineItem(Type.REMOVED, list.get(i + 1)));
+                    break;
+                }
+                else {
+                    i++;
+                    j++;
+                }
             }
             else {
                 if (list.get(i).equals(list2.get(j + 1))) {
@@ -67,7 +61,7 @@ public class Solution {
         }
 
         for (LineItem l : lines)
-            System.out.println(l.type+ " "+l.line);
+            System.out.println(l.type + " " + l.line);
     }
 
 

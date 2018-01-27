@@ -10,6 +10,6 @@ public class Solution {
     }
 
     public static int getMetreFromCentimetre(int centimetre) {
-        return centimetre/100;
+        return centimetre / 100;
     }
 }

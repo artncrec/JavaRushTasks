@@ -10,6 +10,6 @@ public class Solution {
     }
 
     public static int sumDigitsInNumber(int number) {
-        return number/100+number%100/10+number%10;
+        return number / 100 + number % 100 / 10 + number % 10;
     }
 }
