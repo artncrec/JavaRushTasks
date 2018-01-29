@@ -5,8 +5,9 @@ package com.javarush.task.task02.task0218;
 */
 public class Solution {
     public static void print3(String s) {
-        //напишите тут ваш код
-
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
     }
 
     public static void main(String[] args) {

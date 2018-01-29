@@ -5,7 +5,6 @@ package com.javarush.task.task02.task0213;
 */
 public class Solution {
     public static void main(String[] args) {
-        //напишите тут ваш код
         Woman Oksana = new Woman();
         Cat Barsik = new Cat();
         Dog Barbos = new Dog();
