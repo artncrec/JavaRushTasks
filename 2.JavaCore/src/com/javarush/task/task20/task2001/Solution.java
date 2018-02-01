@@ -72,8 +72,7 @@ public class Solution {
         public void save(OutputStream outputStream) throws Exception {
             PrintWriter writer = new PrintWriter(outputStream);
             writer.println(name);
-            for (Asset a:assets)
-            {
+            for (Asset a : assets) {
                 writer.println(a.getName());
                 writer.println(a.getPrice());
             }
@@ -83,9 +82,9 @@ public class Solution {
         public void load(InputStream inputStream) throws Exception {
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
             this.name = reader.readLine();
-            Asset asset; String s;
-            while ((s=reader.readLine()) != null)
-            {
+            Asset asset;
+            String s;
+            while ((s = reader.readLine()) != null) {
                 asset = new Asset(s);
                 asset.setPrice(Double.parseDouble(reader.readLine()));
                 assets.add(asset);

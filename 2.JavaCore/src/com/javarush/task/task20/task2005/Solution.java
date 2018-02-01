@@ -88,7 +88,8 @@ public class Solution {
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
 
             this.name = reader.readLine();
-            String assetName; Asset as;
+            String assetName;
+            Asset as;
             while ((assetName = reader.readLine()) != null) {
                 as = new Asset(assetName);
                 as.setPrice(Double.parseDouble(reader.readLine()));
