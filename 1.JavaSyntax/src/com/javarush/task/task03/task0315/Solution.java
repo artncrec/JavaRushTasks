@@ -6,7 +6,13 @@ package com.javarush.task.task03.task0315;
 
 public class Solution {
     public static void main(String[] args) {
-        //напишите тут ваш код
+        new Red();
+        new Orange();
+        new Yellow();
+        new Green();
+        new Blue();
+        new Indigo();
+        new Violet();
     }
 
     public static class Red {
