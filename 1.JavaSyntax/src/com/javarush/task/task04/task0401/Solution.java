@@ -16,7 +16,7 @@ public class Solution {
         public int age = 20;
 
         public void adjustAge(int age) {
-            age = age + 20;
+            this.age = age + 20;
             System.out.println("The Age in adjustAge() is " + age);
         }
     }
