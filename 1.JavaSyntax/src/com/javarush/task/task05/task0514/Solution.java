@@ -14,8 +14,7 @@ public class Solution {
         String name;
         int age;
 
-        public void initialize(String name, int age)
-        {
+        public void initialize(String name, int age) {
             this.name = name;
             this.age = age;
         }

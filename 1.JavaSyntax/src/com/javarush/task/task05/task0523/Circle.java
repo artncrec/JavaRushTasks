@@ -20,6 +20,9 @@ public class Circle {
     public class Color {
         String description;
 
+        public Color() {
+        }
+
         public String getDescription() {
             return description;
         }
