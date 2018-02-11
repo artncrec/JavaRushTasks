@@ -17,11 +17,11 @@ public class Solution {
         char[] chars = s.toCharArray();
         for (int i = 0; i < chars.length; i++) {
             int z = chars[i];
-            if (z%2==0)
+            if (z % 2 == 0)
                 even++;
             else
                 odd++;
         }
-        System.out.println("Even: "+even+" Odd: "+odd);
+        System.out.println("Even: " + even + " Odd: " + odd);
     }
 }
