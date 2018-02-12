@@ -26,10 +26,9 @@ public class Solution {
 
     public static void removeItemFromMap(HashMap<String, Integer> map) {
         Iterator<Map.Entry<String, Integer>> iterator = map.entrySet().iterator();
-        while (iterator.hasNext())
-        {
+        while (iterator.hasNext()) {
             Map.Entry<String, Integer> pair = iterator.next();
-            if (pair.getValue()<500)
+            if (pair.getValue() < 500)
                 iterator.remove();
         }
     }

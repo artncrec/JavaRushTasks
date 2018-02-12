@@ -17,7 +17,7 @@ public class Solution {
         }
         int even = 0, odd = 0;
         for (int i = 0; i < ints.length; i++) {
-            if ((i+1) % 2 == 0)
+            if ((i + 1) % 2 == 0)
                 even += ints[i];
             else
                 odd += ints[i];
