@@ -6,12 +6,10 @@ package com.javarush.task.task09.task0912;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        try
-        {
+        try {
             int num = Integer.parseInt("XYZ");
             System.out.println(num);
-        } catch (NumberFormatException e)
-        {
+        } catch (NumberFormatException e) {
             System.out.println(e.getClass().getName());
         }
     }
