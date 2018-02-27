@@ -13,13 +13,23 @@ public class Solution {
     }
 
     public static boolean isNormalLockOrder(final Solution solution, final Object o1, final Object o2) throws Exception {
-        Thread thread1 = new Thread() {
+        Runnable runnable = new Runnable() {
             @Override
             public void run() {
-                synchronized (o1) {
+                try {
+                    synchronized (o1) {
+                        Thread.sleep(50);
+                        synchronized (o2) {
+                            Thread.sleep(50);
+                        }
+                    }
+                } catch (InterruptedException e) {
                 }
+
             }
         };
+        Thread thread1 = new Thread(runnable);
+        thread1.setDaemon(true);
 
         Thread thread2 = new Thread() {
             @Override
@@ -27,31 +37,14 @@ public class Solution {
                 solution.someMethodWithSynchronizedBlocks(o1, o2);
             }
         };
-
-        Thread thread4 = new Thread() {
-            @Override
-            public void run() {
-                solution.someMethodWithSynchronizedBlocks(o2, o1);
-            }
-        };
-
-        Thread thread3 = new Thread() {
-            @Override
-            public void run() {
-                synchronized (o2) {
-                }
-            }
-        };
+        thread2.setDaemon(true);
 
         thread1.start();
-        Thread.sleep(100);
+        Thread.sleep(20);
         thread2.start();
         Thread.sleep(100);
-        thread4.start();
-        Thread.sleep(100);
-        thread3.start();
-        Thread.sleep(200);
-        if (thread2.getState() != Thread.State.BLOCKED && thread4.getState() == Thread.State.BLOCKED)
+
+        if (thread2.getState() != Thread.State.BLOCKED)
             return true;
         return false;
     }
