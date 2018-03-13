@@ -20,7 +20,7 @@ public class Solution {
     }
 
     public static void main(String[] args) throws ClassNotFoundException {
-        Solution solution = new Solution(Solution.class.getProtectionDomain().getCodeSource().getLocation().getPath() + "com/javarush/task/task36/task3606/data/second");
+        Solution solution = new Solution(Solution.class.getProtectionDomain().getCodeSource().getLocation().getPath() + Solution.class.getPackage().getName().replace('.','/') + "/data/second");
         solution.scanFileSystem();
         System.out.println(solution.getHiddenClassObjectByKey("hiddenclassimplse"));
         System.out.println(solution.getHiddenClassObjectByKey("hiddenclassimplf"));
@@ -57,7 +57,6 @@ public class Solution {
 
     public static class classLoader extends ClassLoader {
         public Class<?> load(String name) throws ClassNotFoundException {
-            String className = Solution.class.getPackage().getName() + ".data.second." + name.substring(name.lastIndexOf('\\') + 1).replace(".class", "");
             try {
                 byte[] bytes = Files.readAllBytes(Paths.get(name));
                 return defineClass(null, bytes, 0, bytes.length);
