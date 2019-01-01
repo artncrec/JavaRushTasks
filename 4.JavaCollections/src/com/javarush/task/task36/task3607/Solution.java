@@ -1,6 +1,10 @@
 package com.javarush.task.task36.task3607;
 
+import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.Constructor;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Collection;
 import java.util.*;
 
@@ -9,12 +13,14 @@ import java.util.*;
 */
 public class Solution {
     public static void main(String[] args) {
+        System.out.println(Queue.class.getClassLoader());
         System.out.println(getExpectedClass());
     }
 
     public static Class getExpectedClass() {
-        System.out.println(Solution.class.getProtectionDomain().getCodeSource().getLocation());
-        Class[] listClasses = Queue.class.getDeclaredClasses();
+        myClassLoader classLoader = new myClassLoader();
+        List<Class> listClasses = classLoader.load("");
+
         for (Class<?> clazz : listClasses) {
             Class superClass = clazz;
             List<Class> superClassArray = new ArrayList<>();
@@ -35,5 +41,22 @@ public class Solution {
                     }
         }
         return null;
+    }
+
+    public static class myClassLoader extends ClassLoader {
+        public List<Class> load(String name) {
+            List<Class> listClasses = new ArrayList<>();
+            File file = new File(name);
+            for (File f : file.listFiles()) {
+                if (f.getName().endsWith(".class")) {
+                    try {
+                        byte[] bytes = Files.readAllBytes(Paths.get(f.getAbsolutePath()));
+                        listClasses.add(defineClass(null, bytes, 0, bytes.length));
+                    } catch (IOException e) {
+                    }
+                }
+            }
+            return listClasses;
+        }
     }
 }
