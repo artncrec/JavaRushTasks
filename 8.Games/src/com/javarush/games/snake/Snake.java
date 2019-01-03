@@ -35,10 +35,12 @@ public class Snake {
     }
 
     public void setDirection(Direction direction) {
-        if (direction.equals(Direction.LEFT) && this.direction.equals(Direction.RIGHT) ||
-              direction.equals(Direction.RIGHT) && this.direction.equals(Direction.LEFT) ||
-              direction.equals(Direction.UP) && this.direction.equals(Direction.DOWN) ||
-              direction.equals(Direction.DOWN) && this.direction.equals(Direction.UP))
+        int x1 = snakeParts.get(0).x;
+        int x2 = snakeParts.get(1).x;
+        int y1 = snakeParts.get(0).y;
+        int y2 = snakeParts.get(1).y;
+        if ((this.direction.equals(Direction.LEFT) || this.direction.equals(Direction.RIGHT)) && x1 == x2 ||
+              (this.direction.equals(Direction.UP) || this.direction.equals(Direction.DOWN)) && y1 == y2)
             ;
         else
             this.direction = direction;
@@ -85,5 +87,9 @@ public class Snake {
             if (object.x == gameObject.x && object.y == gameObject.y)
                 return true;
         return false;
+    }
+
+    public int getLength(){
+        return snakeParts.size();
     }
 }

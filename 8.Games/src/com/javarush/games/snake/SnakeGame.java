@@ -5,7 +5,10 @@ import com.javarush.engine.cell.*;
 public class SnakeGame extends Game {
     public static final int WIDTH = 15;
     public static final int HEIGHT = 15;
+    private static final int GOAL = 28;
     private int turnDelay;
+    private boolean isGameStopped;
+    private int score;
 
     private Snake snake;
     private Apple apple;
@@ -17,14 +20,29 @@ public class SnakeGame extends Game {
     }
 
     private void createGame() {
+        isGameStopped = false;
+        score =0;
+        setScore(score);
         turnDelay = 300;
         setTurnTimer(turnDelay);
-        snake = new Snake(WIDTH / 2, HEIGHT / 2);
+        snake = new Snake(10, HEIGHT / 2);
         createNewApple();
         drawScene();
     }
 
-    private void drawScene(){
+    private void gameOver() {
+        stopTurnTimer();
+        isGameStopped = true;
+        showMessageDialog(Color.NONE, "GAME OVER", Color.BLUEVIOLET, 75);
+    }
+
+    private void win() {
+        stopTurnTimer();
+        isGameStopped = true;
+        showMessageDialog(Color.NONE, "YOU WIN!", Color.HOTPINK, 75);
+    }
+
+    private void drawScene() {
         for (int i = 0; i < getScreenWidth(); i++) {
             for (int j = 0; j < getScreenHeight(); j++) {
                 setCellValueEx(i, j, Color.BEIGE, "");
@@ -37,8 +55,18 @@ public class SnakeGame extends Game {
     @Override
     public void onTurn(int step) {
         snake.move(apple);
-        if (!apple.isAlive)
+        if (!apple.isAlive){
             createNewApple();
+            score+=5;
+            setScore(score);
+            turnDelay-=10;
+            setTurnTimer(turnDelay);
+        }
+        if (!snake.isAlive) {
+            gameOver();
+        }
+        if (snake.getLength() > GOAL)
+            win();
         drawScene();
     }
 
@@ -52,11 +80,14 @@ public class SnakeGame extends Game {
             snake.setDirection(Direction.RIGHT);
         else if (key.equals(Key.DOWN))
             snake.setDirection(Direction.DOWN);
+        if (key.equals(Key.SPACE) && isGameStopped)
+            createGame();
     }
 
-    private void createNewApple(){
-        int w = getRandomNumber(14);
-        int h = getRandomNumber(14);
-        apple = new Apple(w,h);
+    private void createNewApple() {
+        do {
+            apple = new Apple(getRandomNumber(WIDTH), getRandomNumber(HEIGHT));
+        } while (snake.checkCollision(apple));
+
     }
 }
