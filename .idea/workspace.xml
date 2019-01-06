@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="javarush">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/MinesweeperGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/MinesweeperGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/Условие.jrtc" afterDir="false" />
     </list>
     <ignored path="JavaRushTasks.iws" />
@@ -52,27 +54,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/MinesweeperGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="2363">
+              <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
+                <element signature="method#getNeighbors#0;class#MinesweeperGame#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/GameObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/Условие.jrtc">
+          <provider selected="true" editor-type-id="EditorTypeId" />
         </entry>
       </file>
     </leaf>
@@ -261,8 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,6 +282,14 @@
               <item name="8.Games" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="desktop-game-engine.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="8.Games" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="desktop-game-engine.jar" type="ab9368bb:PsiFileNode" />
+              <item name="cell" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
@@ -317,6 +320,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,7 +332,7 @@
     <property name="SearchEverywhereHistoryKey" value="Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;concurrent&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;walkFileTree&#9;PSI&#9;JAVA://java.nio.file.Files#walkFileTree&#10;java.nio.file.FileVisitor&#9;PSI&#9;JAVA://java.nio.file.FileVisitor&#10;nextInt&#9;PSI&#9;JAVA://java.util.Random#nextInt&#10;hashCode&#9;PSI&#9;JAVA://com.javarush.task.task20.task2001.Asset#hashCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546538028655" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546723909365" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -659,14 +664,8 @@
       <workItem from="1546435909340" duration="8503000" />
       <workItem from="1546531893114" duration="533000" />
       <workItem from="1546532473781" duration="5564000" />
-      <workItem from="1546642035108" duration="613000" />
-    </task>
-    <task id="LOCAL-00026" summary="javarush">
-      <created>1516653569537</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1516653569537</updated>
+      <workItem from="1546642035108" duration="679000" />
+      <workItem from="1546699268781" duration="16250000" />
     </task>
     <task id="LOCAL-00027" summary="javarush">
       <created>1516731439306</created>
@@ -1004,7 +1003,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546537986490</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="javarush">
+      <created>1546644148131</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1546644148132</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1040,7 +1046,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="312997000" />
+    <option name="totallyTimeSpent" value="329313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1055,7 +1061,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994401" visible="true" weight="0.27383864" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994401" visible="true" weight="0.25061125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1065,7 +1071,7 @@
       <window_info id="Web" order="7" sideWeight="0.5005599" side_tool="true" weight="0.2628362" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32826087" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3281075" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
@@ -1387,13 +1393,6 @@
       </provider>
     </entry>
     <entry file="jar://D:/Programs/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/text/Text.java" />
-    <entry file="jar://$PROJECT_DIR$/8.Games/lib/desktop-game-engine.jar!/com/javarush/engine/cell/Game.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="465" column="27" selection-start-line="465" selection-start-column="27" selection-end-line="465" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/snake/SnakeGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="838">
@@ -1404,30 +1403,36 @@
     <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/snake/Условие.jrtc">
       <provider selected="true" editor-type-id="EditorTypeId" />
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
-      <provider selected="true" editor-type-id="EditorTypeId" />
+    <entry file="jar://$PROJECT_DIR$/8.Games/lib/desktop-game-engine.jar!/com/javarush/engine/cell/Game.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        <state relative-caret-position="68">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/MinesweeperGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getNeighbors#0;class#MinesweeperGame#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/Условие.jrtc">
       <provider selected="true" editor-type-id="EditorTypeId" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/MinesweeperGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
   </component>
   <component name="masterDetails">
