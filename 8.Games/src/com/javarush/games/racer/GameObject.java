@@ -6,6 +6,11 @@ public class GameObject {
     public int x, y, width, height;
     public int[][] matrix;
 
+    public GameObject(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
     public GameObject(int x, int y, int[][] matrix) {
         this.x = x;
         this.y = y;
