@@ -11,6 +11,10 @@ public class PlayerCar extends GameObject {
         super(RacerGame.WIDTH / 2 + 2, RacerGame.HEIGHT - playerCarHeight - 1, ShapeMatrix.PLAYER);
     }
 
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
+
     public void setDirection(Direction direction) {
         this.direction = direction;
     }
@@ -30,5 +34,9 @@ public class PlayerCar extends GameObject {
             x = RoadManager.LEFT_BORDER;
         else if (x > RoadManager.RIGHT_BORDER - width)
             x = RoadManager.RIGHT_BORDER - width;
+    }
+
+    public void stop(){
+        matrix = ShapeMatrix.PLAYER_DEAD;
     }
 }

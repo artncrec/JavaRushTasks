@@ -1,6 +1,8 @@
 package com.javarush.games.racer.road;
 
 import com.javarush.engine.cell.Game;
+import com.javarush.games.racer.GameObject;
+import com.javarush.games.racer.PlayerCar;
 import com.javarush.games.racer.RacerGame;
 
 import java.util.ArrayList;
@@ -24,7 +26,7 @@ public class RoadManager {
     private RoadObject createRoadObject(RoadObjectType type, int x, int y) {
         if (type == RoadObjectType.THORN)
             return new Thorn(x, y);
-        else return null;
+        else return new Car(type, x, y);
     }
 
     public void draw(Game game) {
@@ -52,8 +54,15 @@ public class RoadManager {
             addRoadObject(RoadObjectType.THORN, game);
     }
 
+    private void generateRegularCar(Game game) {
+        int carTypeNumber = game.getRandomNumber(4);
+        if (game.getRandomNumber(100) < 30)
+            addRoadObject(RoadObjectType.values()[carTypeNumber], game);
+    }
+
     public void generateNewRoadObjects(Game game) {
         generateThorn(game);
+        generateRegularCar(game);
     }
 
     private void deletePassedItems() {
@@ -61,5 +70,13 @@ public class RoadManager {
             if (iterator.next().y >= RacerGame.HEIGHT)
                 iterator.remove();
         }
+    }
+
+    public boolean checkCrush(PlayerCar playerCar) {
+        for (GameObject gameObject : items) {
+            if (gameObject.isCollision(playerCar))
+                return true;
+        }
+        return false;
     }
 }
