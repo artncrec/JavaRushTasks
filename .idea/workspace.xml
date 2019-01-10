@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="javarush">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/ShapeMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/ShapeMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/road/RoadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/road/RoadManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/road/RoadObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/road/RoadObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/Условие.jrtc" afterDir="false" />
     </list>
     <ignored path="JavaRushTasks.iws" />
@@ -61,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/RacerGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+            <state relative-caret-position="34">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -144,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1815/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1816/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1817/Solution.java" />
         <option value="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task27/task2707/Solution.java" />
@@ -194,6 +195,7 @@
         <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/PlayerCar.java" />
         <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/RacerGame.java" />
         <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/road/Car.java" />
+        <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/road/RoadObject.java" />
         <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/road/RoadManager.java" />
       </list>
     </option>
@@ -275,6 +277,21 @@
               <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
               <item name="8.Games" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="desktop-game-engine.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="8.Games" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="desktop-game-engine.jar" type="ab9368bb:PsiFileNode" />
+              <item name="cell" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="8.Games" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -321,7 +338,7 @@
     <property name="SearchEverywhereHistoryKey" value="Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;concurrent&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;walkFileTree&#9;PSI&#9;JAVA://java.nio.file.Files#walkFileTree&#10;java.nio.file.FileVisitor&#9;PSI&#9;JAVA://java.nio.file.FileVisitor&#10;nextInt&#9;PSI&#9;JAVA://java.util.Random#nextInt&#10;hashCode&#9;PSI&#9;JAVA://com.javarush.task.task20.task2001.Asset#hashCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547155298749" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547156753754" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -674,14 +691,7 @@
       <workItem from="1546806722563" duration="4300000" />
       <workItem from="1546885639169" duration="6951000" />
       <workItem from="1546973558290" duration="6535000" />
-      <workItem from="1547137859638" duration="4536000" />
-    </task>
-    <task id="LOCAL-00037" summary="javarush">
-      <created>1517863436719</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1517863436719</updated>
+      <workItem from="1547137859638" duration="5991000" />
     </task>
     <task id="LOCAL-00038" summary="javarush">
       <created>1517952013620</created>
@@ -1019,7 +1029,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547141947832</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="javarush">
+      <created>1547155330264</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1547155330264</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1055,7 +1072,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="351635000" />
+    <option name="totallyTimeSpent" value="353090000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1455,25 +1472,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/road/RoadObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/road/MovingCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/road/RoadManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
       <provider selected="true" editor-type-id="EditorTypeId" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/road/RoadManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/racer/RacerGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
