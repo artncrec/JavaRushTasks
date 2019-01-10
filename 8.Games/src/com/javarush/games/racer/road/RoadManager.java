@@ -12,14 +12,14 @@ import java.util.ListIterator;
 
 public class RoadManager {
     public static final int LEFT_BORDER = RacerGame.ROADSIDE_WIDTH, RIGHT_BORDER = RacerGame.WIDTH - LEFT_BORDER;
-    private static final int FIRST_LANE_POSITION = 16, FOURTH_LANE_POSITION = 44;
+    private static final int FIRST_LANE_POSITION = 16, FOURTH_LANE_POSITION = 44, PLAYER_CAR_DISTANCE = 12;
     private List<RoadObject> items = new ArrayList<>();
 
     private void addRoadObject(RoadObjectType type, Game game) {
         int x = game.getRandomNumber(FIRST_LANE_POSITION, FOURTH_LANE_POSITION);
         int y = -1 * RoadObject.getHeight(type);
         RoadObject object = createRoadObject(type, x, y);
-        if (object != null)
+        if (object != null && isRoadSpaceFree(object))
             items.add(object);
     }
 
@@ -78,5 +78,13 @@ public class RoadManager {
                 return true;
         }
         return false;
+    }
+
+    private boolean isRoadSpaceFree(RoadObject object) {
+        for (RoadObject gameObject : items) {
+            if (gameObject.isCollisionWithDistance(object, PLAYER_CAR_DISTANCE))
+                return false;
+        }
+        return true;
     }
 }
