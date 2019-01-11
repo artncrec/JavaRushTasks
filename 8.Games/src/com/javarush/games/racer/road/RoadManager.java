@@ -14,6 +14,11 @@ public class RoadManager {
     public static final int LEFT_BORDER = RacerGame.ROADSIDE_WIDTH, RIGHT_BORDER = RacerGame.WIDTH - LEFT_BORDER;
     private static final int FIRST_LANE_POSITION = 16, FOURTH_LANE_POSITION = 44, PLAYER_CAR_DISTANCE = 12;
     private List<RoadObject> items = new ArrayList<>();
+    private int passedCarsCount = 0;
+
+    public int getPassedCarsCount() {
+        return passedCarsCount;
+    }
 
     private void addRoadObject(RoadObjectType type, Game game) {
         int x = game.getRandomNumber(FIRST_LANE_POSITION, FOURTH_LANE_POSITION);
@@ -82,9 +87,14 @@ public class RoadManager {
     }
 
     private void deletePassedItems() {
+        RoadObject roadObject;
         for (Iterator<RoadObject> iterator = items.iterator(); iterator.hasNext(); ) {
-            if (iterator.next().y >= RacerGame.HEIGHT)
+            roadObject = iterator.next();
+            if (roadObject.y >= RacerGame.HEIGHT) {
+                if (roadObject.type != RoadObjectType.THORN)
+                    passedCarsCount++;
                 iterator.remove();
+            }
         }
     }
 

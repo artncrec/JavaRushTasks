@@ -5,10 +5,14 @@ import com.javarush.games.racer.road.RoadManager;
 
 public class RacerGame extends Game {
     public static final int WIDTH = 64, HEIGHT = 64, CENTER_X = WIDTH / 2, ROADSIDE_WIDTH = 14;
+    private static final int RACE_GOAL_CARS_COUNT = 40;
+    private boolean isGameStopped;
     private RoadMarking roadMarking;
     private PlayerCar player;
     private RoadManager roadManager;
-    private boolean isGameStopped;
+    private FinishLine finishLine;
+    private ProgressBar progressBar;
+    private int score;
 
     @Override
     public void initialize() {
@@ -19,10 +23,13 @@ public class RacerGame extends Game {
 
     private void createGame() {
         isGameStopped = false;
+        score = 3500;
         roadMarking = new RoadMarking();
         player = new PlayerCar();
         roadManager = new RoadManager();
-        setTurnTimer(40);
+        finishLine = new FinishLine();
+        progressBar = new ProgressBar(RACE_GOAL_CARS_COUNT);
+        setTurnTimer(30);
         drawScene();
     }
 
@@ -30,6 +37,8 @@ public class RacerGame extends Game {
         drawField();
         roadMarking.draw(this);
         roadManager.draw(this);
+        finishLine.draw(this);
+        progressBar.draw(this);
         player.draw(this);
     }
 
@@ -54,6 +63,8 @@ public class RacerGame extends Game {
     private void moveAll() {
         roadManager.move(player.speed);
         roadMarking.move(player.speed);
+        finishLine.move(player.speed);
+        progressBar.move(roadManager.getPassedCarsCount());
         player.move();
     }
 
@@ -82,10 +93,17 @@ public class RacerGame extends Game {
     public void onTurn(int step) {
         if (roadManager.checkCrush(player)) {
             gameOver();
-        }
-        else {
-            roadManager.generateNewRoadObjects(this);
-            moveAll();
+        } else {
+            if (roadManager.getPassedCarsCount() >= RACE_GOAL_CARS_COUNT)
+                finishLine.show();
+            if (finishLine.isCrossed(player))
+                win();
+            else {
+                roadManager.generateNewRoadObjects(this);
+                moveAll();
+                score-=5;
+                setScore(score);
+            }
         }
         drawScene();
     }
@@ -95,5 +113,11 @@ public class RacerGame extends Game {
         showMessageDialog(Color.RED, "GAME OVER!", Color.WHITE, 75);
         stopTurnTimer();
         player.stop();
+    }
+
+    private void win(){
+        isGameStopped = true;
+        showMessageDialog(Color.WHEAT, "YOU WIN!", Color.AZURE, 75);
+        stopTurnTimer();
     }
 }
