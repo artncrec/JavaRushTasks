@@ -2,12 +2,14 @@ package com.javarush.games.moonlander;
 
 import com.javarush.engine.cell.*;
 
+import java.security.spec.KeySpec;
+
 public class MoonLanderGame extends Game {
     public static final int WIDTH = 64, HEIGHT = 64;
-
+    private int score;
     private Rocket rocket;
-    private GameObject landscape;
-    private boolean isUpPressed, isLeftPressed, isRightPressed;
+    private GameObject landscape, platform;
+    private boolean isUpPressed, isLeftPressed, isRightPressed, isGameStopped;
 
     @Override
     public void initialize() {
@@ -27,18 +29,23 @@ public class MoonLanderGame extends Game {
         rocket.move(isUpPressed, isLeftPressed, isRightPressed);
         check();
         drawScene();
+        if (score > 0)
+            score--;
+        setScore(score);
     }
 
     private void createGame() {
         setTurnTimer(50);
+        isGameStopped = false;
         isLeftPressed = false;
         isRightPressed = false;
         isUpPressed = false;
+        score = 1000;
         createGameObjects();
         drawScene();
     }
 
-    private void drawScene(){
+    private void drawScene() {
         for (int i = 0; i < HEIGHT; i++) {
             for (int j = 0; j < WIDTH; j++) {
                 setCellColor(j, i, Color.DARKBLUE);
@@ -48,9 +55,10 @@ public class MoonLanderGame extends Game {
         landscape.draw(this);
     }
 
-    private void createGameObjects(){
-        rocket = new Rocket(WIDTH/2, 0);
+    private void createGameObjects() {
+        rocket = new Rocket(WIDTH / 2, 0);
         landscape = new GameObject(0, 25, ShapeMatrix.LANDSCAPE);
+        platform = new GameObject(23, MoonLanderGame.HEIGHT - 1, ShapeMatrix.PLATFORM);
     }
 
     @Override
@@ -77,15 +85,29 @@ public class MoonLanderGame extends Game {
             isRightPressed = true;
             isLeftPressed = false;
         }
+        if (key == Key.SPACE && isGameStopped)
+            createGame();
     }
 
-    private void check(){
-
+    private void check() {
+        if (rocket.isCollision(landscape) || rocket.isCollision(platform) && !rocket.isStopped())
+            gameOver();
+        if (rocket.isCollision(platform) && rocket.isStopped())
+            win();
     }
-    private void win(){
 
+    private void win() {
+        rocket.land();
+        isGameStopped = true;
+        showMessageDialog(Color.NONE, "Rocket landed!", Color.BISQUE, 50);
+        stopTurnTimer();
     }
-    private void gameOver(){
 
+    private void gameOver() {
+        rocket.crash();
+        isGameStopped = true;
+        showMessageDialog(Color.NONE, "Rocket crashed!", Color.INDIANRED, 50);
+        stopTurnTimer();
+        score = 0;
     }
 }
