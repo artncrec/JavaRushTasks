@@ -5,6 +5,8 @@ import com.javarush.engine.cell.*;
 public class Game2048 extends Game {
     private static final int SIDE = 4;
     private int[][] gameField = new int[SIDE][SIDE];
+    private boolean isGameStopped = false;
+    private int score = 0;
 
     @Override
     public void initialize() {
@@ -14,6 +16,9 @@ public class Game2048 extends Game {
     }
 
     private void createGame() {
+        score = 0;
+        setScore(score);
+        gameField = new int[SIDE][SIDE];
         createNewNumber();
         createNewNumber();
     }
@@ -27,6 +32,8 @@ public class Game2048 extends Game {
     }
 
     private void createNewNumber() {
+        if (getMaxTileValue()==2048)
+            win();
         int x, y;
         do {
             x = getRandomNumber(SIDE);
@@ -38,6 +45,77 @@ public class Game2048 extends Game {
             gameField[x][y] = 2;
         else
             gameField[x][y] = 4;
+    }
+
+    @Override
+    public void onKeyPress(Key key) {
+        if (isGameStopped) {
+            if (key == Key.SPACE) {
+                isGameStopped = false;
+                createGame();
+                drawScene();
+            }
+        } else if (!canUserMove()) {
+            gameOver();
+        } else {
+            if (key == Key.RIGHT) {
+                moveRight();
+                drawScene();
+            }
+            if (key == Key.LEFT) {
+                moveLeft();
+                drawScene();
+            }
+            if (key == Key.UP) {
+                moveUp();
+                drawScene();
+            }
+            if (key == Key.DOWN) {
+                moveDown();
+                drawScene();
+            }
+        }
+    }
+
+    private void moveRight() {
+        rotateClockwise();
+        rotateClockwise();
+        moveLeft();
+        rotateClockwise();
+        rotateClockwise();
+    }
+
+    private void moveLeft() {
+        boolean change, needNewNumber = false;
+        for (int i = 0; i < gameField.length; i++) {
+            change = false;
+            change = compressRow(gameField[i]);
+            if (change)
+                needNewNumber = true;
+            change = mergeRow(gameField[i]);
+            if (change) {
+                compressRow(gameField[i]);
+                needNewNumber = true;
+            }
+        }
+        if (needNewNumber)
+            createNewNumber();
+    }
+
+    private void moveUp() {
+        rotateClockwise();
+        rotateClockwise();
+        rotateClockwise();
+        moveLeft();
+        rotateClockwise();
+    }
+
+    private void moveDown() {
+        rotateClockwise();
+        moveLeft();
+        rotateClockwise();
+        rotateClockwise();
+        rotateClockwise();
     }
 
     private Color getColorByValue(int value) {
@@ -91,5 +169,64 @@ public class Game2048 extends Game {
             }
         }
         return result;
+    }
+
+    private boolean mergeRow(int[] row) {
+        boolean result = false;
+        for (int i = 0; i < row.length - 1; i++) {
+            if (row[i] == row[i + 1] && row[i] != 0) {
+                score += row[i] * 2;
+                setScore(score);
+                row[i] *= 2;
+                row[i + 1] = 0;
+                result = true;
+            }
+        }
+        return result;
+    }
+
+    private void rotateClockwise(){
+        int [][] rotatedMatrix = new int[gameField.length][gameField[0].length];
+        for (int i = 0; i < gameField.length; i++) {
+            for (int j = 0; j < gameField[i].length; j++) {
+                rotatedMatrix[j][gameField[i].length - 1 - i] = gameField[i][j];
+            }
+        }
+        gameField = rotatedMatrix;
+    }
+
+    private int getMaxTileValue() {
+        int max = 0;
+        for (int i = 0; i < gameField.length; i++) {
+            for (int j = 0; j < gameField[i].length; j++) {
+                if (gameField[i][j] > max)
+                    max = gameField[i][j];
+            }
+        }
+        return max;
+    }
+
+    private void win(){
+        isGameStopped = true;
+        showMessageDialog(Color.NONE, "YOU WIN!!!", Color.DARKRED, 75);
+    }
+
+    private void gameOver(){
+        isGameStopped=true;
+        showMessageDialog(Color.DARKRED, "YOU LOSE!!!", Color.KHAKI, 75);
+    }
+
+    private boolean canUserMove() {
+        for (int i = 0; i < gameField.length; i++) {
+            for (int j = 0; j < gameField[i].length; j++) {
+                if (gameField[i][j] == 0)
+                    return true;
+                if (i < gameField.length - 1 && gameField[i][j] == gameField[i + 1][j])
+                    return true;
+                if (j < gameField[i].length - 1 && gameField[i][j] == gameField[i][j + 1])
+                    return true;
+            }
+        }
+        return false;
     }
 }
