@@ -32,7 +32,7 @@ public class Game2048 extends Game {
     }
 
     private void createNewNumber() {
-        if (getMaxTileValue()==2048)
+        if (getMaxTileValue() == 2048)
             win();
         int x, y;
         do {
@@ -185,8 +185,8 @@ public class Game2048 extends Game {
         return result;
     }
 
-    private void rotateClockwise(){
-        int [][] rotatedMatrix = new int[gameField.length][gameField[0].length];
+    private void rotateClockwise() {
+        int[][] rotatedMatrix = new int[gameField.length][gameField[0].length];
         for (int i = 0; i < gameField.length; i++) {
             for (int j = 0; j < gameField[i].length; j++) {
                 rotatedMatrix[j][gameField[i].length - 1 - i] = gameField[i][j];
@@ -206,13 +206,13 @@ public class Game2048 extends Game {
         return max;
     }
 
-    private void win(){
+    private void win() {
         isGameStopped = true;
         showMessageDialog(Color.NONE, "YOU WIN!!!", Color.DARKRED, 75);
     }
 
-    private void gameOver(){
-        isGameStopped=true;
+    private void gameOver() {
+        isGameStopped = true;
         showMessageDialog(Color.DARKRED, "YOU LOSE!!!", Color.KHAKI, 75);
     }
 

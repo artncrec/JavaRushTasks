@@ -7,7 +7,6 @@
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="javarush">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Условие.jrtc" afterDir="false" />
     </list>
     <ignored path="JavaRushTasks.iws" />
     <ignored path="out/" />
@@ -57,9 +56,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-            </state>
+            <state relative-caret-position="-1122" />
           </provider>
         </entry>
       </file>
@@ -217,31 +214,6 @@
     <option name="width" value="1536" />
     <option name="height" value="977" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Abstraction issuesJava</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -317,7 +289,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2137931" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
     <key name="IntroduceConstantDialog.RECENTS_KEY">
@@ -681,13 +653,6 @@
       <workItem from="1547223327482" duration="43000" />
       <workItem from="1547223902192" duration="1542000" />
     </task>
-    <task id="LOCAL-00045" summary="javarush">
-      <created>1518726395087</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1518726395087</updated>
-    </task>
     <task id="LOCAL-00046" summary="javarush">
       <created>1518813500327</created>
       <option name="number" value="00046" />
@@ -1024,7 +989,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547586548175</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="javarush">
+      <created>1547658874414</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1547658874415</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1500,9 +1472,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
+        <state relative-caret-position="-1122" />
       </provider>
     </entry>
   </component>
