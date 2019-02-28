@@ -3,15 +3,16 @@
   <component name="AnalysisUIOptions">
     <option name="SCOPE_TYPE" value="3" />
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$USER_HOME$/AppData/Local/Temp/Валидация" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="javarush">
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/SpaceInvadersGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/EnemyFleet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/EnemyShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/GameObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/Direction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/SpaceInvadersGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/SpaceInvadersGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/EnemyFleet.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/EnemyFleet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/EnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/EnemyShip.java" afterDir="false" />
     </list>
     <ignored path="JavaRushTasks.iws" />
     <ignored path="out/" />
@@ -61,12 +62,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/SpaceInvadersGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="272">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,8 +84,8 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Singleton" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -154,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1827/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1828/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1901/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1902/AdapterFileOutputStream.java" />
@@ -200,9 +198,10 @@
         <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/moonlander/MoonLanderGame.java" />
         <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java" />
         <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/Star.java" />
-        <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/SpaceInvadersGame.java" />
         <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/GameObject.java" />
         <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/Ship.java" />
+        <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/SpaceInvadersGame.java" />
+        <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/Direction.java" />
         <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/EnemyShip.java" />
         <option value="$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/EnemyFleet.java" />
       </list>
@@ -238,7 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -307,6 +305,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,7 +316,7 @@
     <property name="SearchEverywhereHistoryKey" value="Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;concurrent&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;walkFileTree&#9;PSI&#9;JAVA://java.nio.file.Files#walkFileTree&#10;java.nio.file.FileVisitor&#9;PSI&#9;JAVA://java.nio.file.FileVisitor&#10;nextInt&#9;PSI&#9;JAVA://java.util.Random#nextInt&#10;hashCode&#9;PSI&#9;JAVA://com.javarush.task.task20.task2001.Asset#hashCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551129362093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551297687733" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -697,14 +696,8 @@
       <workItem from="1551112926370" duration="41000" />
       <workItem from="1551113007287" duration="7988000" />
       <workItem from="1551289339577" duration="71000" />
-      <workItem from="1551289483758" duration="590000" />
-    </task>
-    <task id="LOCAL-00047" summary="javarush">
-      <created>1518889165302</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1518889165302</updated>
+      <workItem from="1551289483758" duration="5202000" />
+      <workItem from="1551380073443" duration="754000" />
     </task>
     <task id="LOCAL-00048" summary="javarush">
       <created>1518971401779</created>
@@ -1042,7 +1035,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547659425010</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="javarush">
+      <created>1551290118533</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1551290118533</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1078,7 +1078,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365722000" />
+    <option name="totallyTimeSpent" value="371088000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1093,7 +1093,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994401" visible="true" weight="0.2787286" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994401" visible="true" weight="0.28239608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1295,13 +1295,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/snake/Snake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="98" selection-start-line="42" selection-start-column="98" selection-end-line="42" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Programs/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/text/Text.java" />
     <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/snake/SnakeGame.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1425,12 +1418,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/Условие.jrtc">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="EditorTypeId" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/moonlander/Условие.jrtc">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="EditorTypeId" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/atomic/AtomicLong.java" />
@@ -1518,36 +1511,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/EnemyShip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
+      <provider selected="true" editor-type-id="EditorTypeId" />
     </entry>
     <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/EnemyFleet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="799">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
-      <provider selected="true" editor-type-id="EditorTypeId" />
+    <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/gameobjects/EnemyShip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/spaceinvaders/SpaceInvadersGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="272">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
           </folding>
         </state>
       </provider>
