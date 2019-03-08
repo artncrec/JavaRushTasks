@@ -3,6 +3,7 @@ package com.javarush.games.spaceinvaders;
 import com.javarush.engine.cell.*;
 import com.javarush.games.spaceinvaders.gameobjects.Bullet;
 import com.javarush.games.spaceinvaders.gameobjects.EnemyFleet;
+import com.javarush.games.spaceinvaders.gameobjects.PlayerShip;
 import com.javarush.games.spaceinvaders.gameobjects.Star;
 
 import java.util.ArrayList;
@@ -15,6 +16,9 @@ public class SpaceInvadersGame extends Game {
     private EnemyFleet enemyFleet;
     public static final int COMPLEXITY = 5;
     private List<Bullet> enemyBullets;
+    private PlayerShip playerShip;
+    private boolean isGameStopped;
+    private int animationsCount;
 
     @Override
     public void initialize() {
@@ -25,8 +29,11 @@ public class SpaceInvadersGame extends Game {
     private void createGame() {
         setTurnTimer(40);
         createStars();
+        isGameStopped = false;
+        animationsCount = 0;
         enemyFleet = new EnemyFleet();
         enemyBullets = new ArrayList<>();
+        playerShip = new PlayerShip();
         drawScene();
     }
 
@@ -36,6 +43,7 @@ public class SpaceInvadersGame extends Game {
               enemyBullets) {
             bullet.draw(this);
         }
+        playerShip.draw(this);
         enemyFleet.draw(this);
     }
 
@@ -86,6 +94,23 @@ public class SpaceInvadersGame extends Game {
     }
 
     private void check(){
+        playerShip.verifyHit(enemyBullets);
         removeDeadBullets();
+        if (!playerShip.isAlive)
+            stopGameWithDelay();
+    }
+
+    private void stopGame(boolean isWin){
+        isGameStopped = true;
+        stopTurnTimer();
+        if (isWin)
+            showMessageDialog(Color.BLACK, "win", Color.GREEN, 75);
+        else showMessageDialog(Color.BLACK, "lose", Color.RED, 75);
+    }
+
+    private void stopGameWithDelay() {
+        animationsCount++;
+        if (animationsCount >= 10)
+            stopGame(playerShip.isAlive);
     }
 }
