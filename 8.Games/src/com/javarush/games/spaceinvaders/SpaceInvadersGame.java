@@ -78,6 +78,7 @@ public class SpaceInvadersGame extends Game {
 
     private void moveSpaceObjects(){
         enemyFleet.move();
+        playerShip.move();
         for (Bullet bullet :
               enemyBullets) {
             bullet.move();
@@ -112,5 +113,23 @@ public class SpaceInvadersGame extends Game {
         animationsCount++;
         if (animationsCount >= 10)
             stopGame(playerShip.isAlive);
+    }
+
+    @Override
+    public void onKeyPress(Key key) {
+        if (key == Key.SPACE && isGameStopped)
+            createGame();
+        if (key == Key.LEFT)
+            playerShip.setDirection(Direction.LEFT);
+        if (key == Key.RIGHT)
+            playerShip.setDirection(Direction.RIGHT);
+    }
+
+    @Override
+    public void onKeyReleased(Key key) {
+        if (key == Key.LEFT && playerShip.getDirection() == Direction.LEFT)
+            playerShip.setDirection(Direction.UP);
+        if (key == Key.RIGHT && playerShip.getDirection() == Direction.RIGHT)
+            playerShip.setDirection(Direction.UP);
     }
 }
