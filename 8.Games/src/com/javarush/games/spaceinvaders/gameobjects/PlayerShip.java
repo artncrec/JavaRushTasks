@@ -57,4 +57,9 @@ public class PlayerShip extends Ship {
                 x = SpaceInvadersGame.WIDTH - width;
         }
     }
+
+    @Override
+    public Bullet fire() {
+        return isAlive ? new Bullet(x + 2, y - ShapeMatrix.BULLET.length, Direction.UP) : null;
+    }
 }

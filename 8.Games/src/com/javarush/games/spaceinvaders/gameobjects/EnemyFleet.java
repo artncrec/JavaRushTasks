@@ -6,6 +6,7 @@ import com.javarush.games.spaceinvaders.ShapeMatrix;
 import com.javarush.games.spaceinvaders.SpaceInvadersGame;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class EnemyFleet {
@@ -85,5 +86,27 @@ public class EnemyFleet {
         if (game.getRandomNumber(100 / SpaceInvadersGame.COMPLEXITY) > 0)
             return null;
         return ships.get(game.getRandomNumber(ships.size())).fire();
+    }
+
+    public void verifyHit(List<Bullet> bullets) {
+        for (Ship ship :
+              ships) {
+            for (Bullet bullet :
+                  bullets) {
+                if (ship.isAlive && bullet.isAlive && ship.isCollision(bullet)) {
+                    bullet.kill();
+                    ship.kill();
+                }
+            }
+        }
+    }
+
+    public void deleteHiddenShips(){
+        Iterator<EnemyShip> shipIterator = ships.iterator();
+        while (shipIterator.hasNext()) {
+            Ship ship = shipIterator.next();
+            if (!ship.isVisible())
+                shipIterator.remove();
+        }
     }
 }

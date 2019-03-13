@@ -15,22 +15,22 @@ public class Ship extends GameObject {
         super(x, y);
     }
 
-    public void setStaticView(int[][] viewFrame){
+    public void setStaticView(int[][] viewFrame) {
         setMatrix(viewFrame);
         frames = new ArrayList<>();
         frames.add(viewFrame);
         frameIndex = 0;
     }
 
-    public Bullet fire(){
+    public Bullet fire() {
         return null;
     }
 
-    public void kill(){
+    public void kill() {
         isAlive = false;
     }
 
-    public void setAnimatedView(int[][]... viewFrames){
+    public void setAnimatedView(int[][]... viewFrames) {
         setMatrix(viewFrames[0]);
         frames = Arrays.asList(viewFrames);
         frameIndex = 0;
@@ -47,5 +47,11 @@ public class Ship extends GameObject {
     public void draw(Game game) {
         super.draw(game);
         nextFrame();
+    }
+
+    public boolean isVisible() {
+        if (!isAlive && frameIndex >= frames.size())
+            return false;
+        else return true;
     }
 }
