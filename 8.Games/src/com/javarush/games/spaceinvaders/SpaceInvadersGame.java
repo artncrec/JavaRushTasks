@@ -11,7 +11,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class SpaceInvadersGame extends Game {
-    public static final int WIDTH=64, HEIGHT=64;
+    public static final int WIDTH = 64, HEIGHT = 64;
     private List<Star> stars;
     private EnemyFleet enemyFleet;
     public static final int COMPLEXITY = 5;
@@ -21,6 +21,7 @@ public class SpaceInvadersGame extends Game {
     private boolean isGameStopped;
     private int animationsCount;
     private static final int PLAYER_BULLETS_MAX = 1;
+    private int score;
 
     @Override
     public void initialize() {
@@ -33,6 +34,7 @@ public class SpaceInvadersGame extends Game {
         createStars();
         isGameStopped = false;
         animationsCount = 0;
+        score = 0;
         enemyFleet = new EnemyFleet();
         enemyBullets = new ArrayList<>();
         playerBullets = new ArrayList<>();
@@ -54,7 +56,7 @@ public class SpaceInvadersGame extends Game {
         enemyFleet.draw(this);
     }
 
-    private void drawField(){
+    private void drawField() {
         for (int i = 0; i < WIDTH; i++) {
             for (int j = 0; j < HEIGHT; j++) {
                 setCellValueEx(i, j, Color.BLACK, "");
@@ -66,7 +68,7 @@ public class SpaceInvadersGame extends Game {
         }
     }
 
-    private void createStars(){
+    private void createStars() {
         stars = new ArrayList<>();
         for (int i = 0; i < 8; i++) {
             stars.add(new Star(getRandomNumber(WIDTH), getRandomNumber(HEIGHT)));
@@ -80,10 +82,11 @@ public class SpaceInvadersGame extends Game {
         Bullet bullet = enemyFleet.fire(this);
         if (bullet != null)
             enemyBullets.add(bullet);
+        setScore(score);
         drawScene();
     }
 
-    private void moveSpaceObjects(){
+    private void moveSpaceObjects() {
         enemyFleet.move();
         playerShip.move();
         for (Bullet bullet :
@@ -111,16 +114,22 @@ public class SpaceInvadersGame extends Game {
         }
     }
 
-    private void check(){
+    private void check() {
         playerShip.verifyHit(enemyBullets);
-        enemyFleet.verifyHit(playerBullets);
+        score += enemyFleet.verifyHit(playerBullets);
         enemyFleet.deleteHiddenShips();
+        if (enemyFleet.getShipsCount() == 0) {
+            playerShip.win();
+            stopGameWithDelay();
+        }
+        if (enemyFleet.getBottomBorder() >= playerShip.y)
+            playerShip.kill();
         removeDeadBullets();
         if (!playerShip.isAlive)
             stopGameWithDelay();
     }
 
-    private void stopGame(boolean isWin){
+    private void stopGame(boolean isWin) {
         isGameStopped = true;
         stopTurnTimer();
         if (isWin)

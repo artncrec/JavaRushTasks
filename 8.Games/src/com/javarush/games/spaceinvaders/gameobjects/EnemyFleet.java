@@ -88,17 +88,20 @@ public class EnemyFleet {
         return ships.get(game.getRandomNumber(ships.size())).fire();
     }
 
-    public void verifyHit(List<Bullet> bullets) {
-        for (Ship ship :
-              ships) {
-            for (Bullet bullet :
-                  bullets) {
+    public int verifyHit(List<Bullet> bullets) {
+        if (bullets.size() == 0)
+            return 0;
+        int sum = 0;
+        for (EnemyShip ship : ships) {
+            for (Bullet bullet : bullets) {
                 if (ship.isAlive && bullet.isAlive && ship.isCollision(bullet)) {
                     bullet.kill();
+                    sum += ship.score;
                     ship.kill();
                 }
             }
         }
+        return sum;
     }
 
     public void deleteHiddenShips(){
@@ -108,5 +111,19 @@ public class EnemyFleet {
             if (!ship.isVisible())
                 shipIterator.remove();
         }
+    }
+
+    public double getBottomBorder(){
+        double max = 0;
+        for (Ship ship :
+              ships) {
+            if (max < ship.y + ship.height)
+                max = ship.y + ship.height;
+        }
+        return max;
+    }
+
+    public int getShipsCount(){
+        return ships.size();
     }
 }

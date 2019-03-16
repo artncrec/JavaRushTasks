@@ -62,4 +62,8 @@ public class PlayerShip extends Ship {
     public Bullet fire() {
         return isAlive ? new Bullet(x + 2, y - ShapeMatrix.BULLET.length, Direction.UP) : null;
     }
+
+    public void win(){
+        setStaticView(ShapeMatrix.WIN_PLAYER);
+    }
 }
