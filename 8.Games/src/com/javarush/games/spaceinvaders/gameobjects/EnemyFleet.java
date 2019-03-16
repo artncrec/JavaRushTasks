@@ -54,9 +54,9 @@ public class EnemyFleet {
     }
 
     private double getSpeed() {
-        double min = 2.0;
+        double max = 1.0;
         double speed = 3.0 / ships.size();
-        return min < speed ? min : speed;
+        return max < speed ? max : speed;
     }
 
     public void move() {
@@ -70,8 +70,7 @@ public class EnemyFleet {
                 direction = Direction.LEFT;
                 hasChanged = true;
             }
-            for (EnemyShip enemyShip :
-                  ships) {
+            for (EnemyShip enemyShip : ships) {
                 if (hasChanged)
                     enemyShip.move(Direction.DOWN, getSpeed());
                 else

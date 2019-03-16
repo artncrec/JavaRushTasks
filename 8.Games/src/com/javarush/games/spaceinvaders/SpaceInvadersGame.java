@@ -21,6 +21,7 @@ public class SpaceInvadersGame extends Game {
     private boolean isGameStopped;
     private int animationsCount;
     private static final int PLAYER_BULLETS_MAX = 1;
+    private int bulletTimer;
     private int score;
 
     @Override
@@ -35,6 +36,7 @@ public class SpaceInvadersGame extends Game {
         isGameStopped = false;
         animationsCount = 0;
         score = 0;
+        bulletTimer = 0;
         enemyFleet = new EnemyFleet();
         enemyBullets = new ArrayList<>();
         playerBullets = new ArrayList<>();
@@ -79,6 +81,7 @@ public class SpaceInvadersGame extends Game {
     public void onTurn(int step) {
         moveSpaceObjects();
         check();
+        bulletTimer++;
         Bullet bullet = enemyFleet.fire(this);
         if (bullet != null)
             enemyBullets.add(bullet);
@@ -150,8 +153,10 @@ public class SpaceInvadersGame extends Game {
             createGame();
         else if (key == Key.SPACE) {
             bullet = playerShip.fire();
-            if (bullet != null && playerBullets.size() < PLAYER_BULLETS_MAX)
+            if (bullet != null && bulletTimer > 10) {
                 playerBullets.add(bullet);
+                bulletTimer = 0;
+            }
         }
         if (key == Key.LEFT)
             playerShip.setDirection(Direction.LEFT);
